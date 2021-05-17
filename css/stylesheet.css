@@ -1,0 +1,107 @@
+/* Stylesheet for Pansy Potter */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #006600;
+} 
+
+li { 
+	float: left; 
+} 
+li a { 
+	display: block;
+	color: white; 
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background:#006600; 
+} 
+	
+li { 
+	color:#006600;
+}
+
+li a:hover {
+	background-color: #6b00b3;
+}
+
+header {
+	position: bottom 5px;
+	font-size: 14px;
+}
+
+html {
+	background-image: url("https://p2.piqsels.com/preview/447/494/530/background-green-gardening-spring.jpg");
+	background-size: 580%;
+	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+}
+
+nav {
+	font-size: 17px;
+}
+
+h1 {
+	font-size:38px;
+}
+
+main {
+	font-size: 17px;
+	padding:30px;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #006600;
+	color: white;
+	text-align: center;
+	height: 20px;
+	position: fixed;
+	padding: 5px;
+}
+
+button { 
+	background:#006600;
+	color: white;
+	border: none;
+	padding: 30px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: #6b00b3;
+}
+
+input[type=text] {
+	width: 130px;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 3px solid #6b00b3;
+	border-radius: 4px;
+	background-color: white;
+	background-position: 10px 10px; 
+	background-repeat: no-repeat;
+	padding: 12px;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 15%;
+}
+
+h4 {
+	font-size: 17px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+textarea {
+	border-bottom: 3px solid #6b00b3;
+}
